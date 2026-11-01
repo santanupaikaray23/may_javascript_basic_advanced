@@ -54,3 +54,25 @@ for(i=0; i<myarray.length; i++){
         console.log(myarray[i])
     }
 }
+
+// while
+// First check the condition and run
+var i = 5
+while(i<5){
+    console.log(i)
+    i++
+}
+
+// do while
+// First run later check the condition 
+var i = 5
+do{
+    console.log(i)
+    i++
+}
+while(i<5)
+
+var city = ["Delhi","Mumbai","Bangalore","Chennai","Kolkata"]
+for(mycity of city){
+    console.log(mycity)
+}
