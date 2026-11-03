@@ -38,3 +38,33 @@ function add(...args){
     console.log(args)
 }
 add(10,20,30,40,50)
+
+function add(...args){
+    let sum = 0
+    for (data of args){
+        sum = data+sum
+    }
+    return sum
+}
+add(1,2,3,45)
+51
+
+// method > when function assign to a variable
+
+function add(a,b){
+    return a+b
+}
+add(1,3)
+
+var add = function(a,b){
+    return a+b
+}
+add(2,5)
+
+///es6///
+///arrow function///
+let add = (a,b)=>{return a+b}
+add(1,2)
+3
+
+let add = (...args) => { return a+b }
