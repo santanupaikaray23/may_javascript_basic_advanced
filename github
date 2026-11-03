@@ -1,0 +1,19 @@
+Global Folder
+
+FIRST TIME FORM NEW FOLDER
+
+git init
+git add .
+git commit -am "first commit"
+git branch-M main
+git remote add origin 
+git push -u origin main
+
+///next all time
+git add .
+git commit -am "commit message"
+git push 
+
+to create new branch: git checkout -b branch_name
+switch to branch: git checkout branch_name
+git pull > to pull code of latest branch
