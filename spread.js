@@ -41,3 +41,28 @@ var calc = {
     sub: (a,b) => {return a-b}
 }
 calc.sub(1,2)
+
+function add(a,b,c,d){
+    return a+b+c+d
+}
+var num = [1,2,3,4]
+
+add(num)
+
+num.map((data)=>{add(data)})
+
+var a = [1,2,3,4]
+out = [...a,5]
+
+var movies = {
+    name:"Avengers",
+    rating:4.4,
+    lang:'English'
+}
+for (key in movies){
+    console.log(key)
+}
+
+for(key in movies){
+    console.log(movies[key])
+}
