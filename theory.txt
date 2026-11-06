@@ -1,1 +1,6 @@
 completed video: 000070
+
+Generate package.JSON
+*nodejs must be install in system
+*open cmd
+>npm init -y
